@@ -10,10 +10,16 @@
 		1B22A5131A0A5E500040D6BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B22A5121A0A5E500040D6BB /* main.m */; };
 		1B22A5161A0A5E500040D6BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B22A5151A0A5E500040D6BB /* AppDelegate.m */; };
 		1B22A5191A0A5E500040D6BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B22A5181A0A5E500040D6BB /* ViewController.m */; };
-		1B22A51C1A0A5E500040D6BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B22A51A1A0A5E500040D6BB /* Main.storyboard */; };
 		1B22A51E1A0A5E500040D6BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B22A51D1A0A5E500040D6BB /* Images.xcassets */; };
-		1B22A5211A0A5E500040D6BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B22A51F1A0A5E500040D6BB /* LaunchScreen.xib */; };
 		1B22A52D1A0A5E500040D6BB /* GitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B22A52C1A0A5E500040D6BB /* GitHubTests.m */; };
+		1B4A297C1A0BC1DC00769779 /* UserInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A297B1A0BC1DC00769779 /* UserInfoVC.m */; };
+		1B4C27381A0BEEE200CEB21A /* no-avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B4C27371A0BEEE200CEB21A /* no-avatar.png */; };
+		1B573C5B1A0A66140097290C /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B573C5A1A0A66140097290C /* help.png */; };
+		1B573C5E1A0ABC340097290C /* Sidebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B573C5D1A0ABC340097290C /* Sidebar.m */; };
+		1BC9CA481A0ADB2D003F075F /* RNFrostedSidebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9CA471A0ADB2D003F075F /* RNFrostedSidebar.m */; };
+		1BD00D691A0ACD3E00087A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B22A51A1A0A5E500040D6BB /* Main.storyboard */; };
+		1BD00D6A1A0ACD4100087A60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B22A51F1A0A5E500040D6BB /* LaunchScreen.xib */; };
+		998FD204C7D052BB90652356 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 034E6570B54FB45164892CD8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		034E6570B54FB45164892CD8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B22A50D1A0A5E500040D6BB /* GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B22A5111A0A5E500040D6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B22A5121A0A5E500040D6BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,17 @@
 		1B22A5261A0A5E500040D6BB /* GitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B22A52B1A0A5E500040D6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B22A52C1A0A5E500040D6BB /* GitHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubTests.m; sourceTree = "<group>"; };
+		1B4A297A1A0BC1DC00769779 /* UserInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoVC.h; sourceTree = "<group>"; };
+		1B4A297B1A0BC1DC00769779 /* UserInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoVC.m; sourceTree = "<group>"; };
+		1B4C27371A0BEEE200CEB21A /* no-avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-avatar.png"; sourceTree = "<group>"; };
+		1B573C5A1A0A66140097290C /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		1B573C5C1A0ABC340097290C /* Sidebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sidebar.h; sourceTree = "<group>"; };
+		1B573C5D1A0ABC340097290C /* Sidebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sidebar.m; sourceTree = "<group>"; };
+		1BC9CA461A0ADB2D003F075F /* RNFrostedSidebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFrostedSidebar.h; sourceTree = "<group>"; };
+		1BC9CA471A0ADB2D003F075F /* RNFrostedSidebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFrostedSidebar.m; sourceTree = "<group>"; };
+		1BCFA70C3B4285D4684672CD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1BFDDCAD1A0ACA9600DCAF9E /* libPods-RNFrostedSidebar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-RNFrostedSidebar.a"; path = "Pods/build/Release-iphoneos/libPods-RNFrostedSidebar.a"; sourceTree = "<group>"; };
+		EBDC7DCB2EA60B705A3E27E7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998FD204C7D052BB90652356 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +85,8 @@
 				1B22A50F1A0A5E500040D6BB /* GitHub */,
 				1B22A5291A0A5E500040D6BB /* GitHubTests */,
 				1B22A50E1A0A5E500040D6BB /* Products */,
+				330F814540B957A0E814A121 /* Pods */,
+				7B31D32F300EDD2BB8157F30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +104,14 @@
 			children = (
 				1B22A5141A0A5E500040D6BB /* AppDelegate.h */,
 				1B22A5151A0A5E500040D6BB /* AppDelegate.m */,
+				1B4A297A1A0BC1DC00769779 /* UserInfoVC.h */,
+				1B4A297B1A0BC1DC00769779 /* UserInfoVC.m */,
 				1B22A5171A0A5E500040D6BB /* ViewController.h */,
 				1B22A5181A0A5E500040D6BB /* ViewController.m */,
+				1BC9CA461A0ADB2D003F075F /* RNFrostedSidebar.h */,
+				1BC9CA471A0ADB2D003F075F /* RNFrostedSidebar.m */,
+				1B573C5C1A0ABC340097290C /* Sidebar.h */,
+				1B573C5D1A0ABC340097290C /* Sidebar.m */,
 				1B22A51A1A0A5E500040D6BB /* Main.storyboard */,
 				1B22A51D1A0A5E500040D6BB /* Images.xcassets */,
 				1B22A51F1A0A5E500040D6BB /* LaunchScreen.xib */,
@@ -96,6 +123,8 @@
 		1B22A5101A0A5E500040D6BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B4C27371A0BEEE200CEB21A /* no-avatar.png */,
+				1B573C5A1A0A66140097290C /* help.png */,
 				1B22A5111A0A5E500040D6BB /* Info.plist */,
 				1B22A5121A0A5E500040D6BB /* main.m */,
 			);
@@ -119,6 +148,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		330F814540B957A0E814A121 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BCFA70C3B4285D4684672CD /* Pods.debug.xcconfig */,
+				EBDC7DCB2EA60B705A3E27E7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B31D32F300EDD2BB8157F30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BFDDCAD1A0ACA9600DCAF9E /* libPods-RNFrostedSidebar.a */,
+				034E6570B54FB45164892CD8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B22A5301A0A5E500040D6BB /* Build configuration list for PBXNativeTarget "GitHub" */;
 			buildPhases = (
+				B21CCCF9775412CB4F7B301B /* Check Pods Manifest.lock */,
 				1B22A5091A0A5E500040D6BB /* Sources */,
 				1B22A50A1A0A5E500040D6BB /* Frameworks */,
 				1B22A50B1A0A5E500040D6BB /* Resources */,
+				48C3C97C90EF855B1FE9DEDC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +248,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B22A51C1A0A5E500040D6BB /* Main.storyboard in Resources */,
-				1B22A5211A0A5E500040D6BB /* LaunchScreen.xib in Resources */,
+				1BD00D6A1A0ACD4100087A60 /* LaunchScreen.xib in Resources */,
+				1BD00D691A0ACD3E00087A60 /* Main.storyboard in Resources */,
+				1B573C5B1A0A66140097290C /* help.png in Resources */,
 				1B22A51E1A0A5E500040D6BB /* Images.xcassets in Resources */,
+				1B4C27381A0BEEE200CEB21A /* no-avatar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +265,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48C3C97C90EF855B1FE9DEDC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21CCCF9775412CB4F7B301B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B22A5091A0A5E500040D6BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1B22A5191A0A5E500040D6BB /* ViewController.m in Sources */,
+				1BC9CA481A0ADB2D003F075F /* RNFrostedSidebar.m in Sources */,
 				1B22A5161A0A5E500040D6BB /* AppDelegate.m in Sources */,
+				1B573C5E1A0ABC340097290C /* Sidebar.m in Sources */,
 				1B22A5131A0A5E500040D6BB /* main.m in Sources */,
+				1B4A297C1A0BC1DC00769779 /* UserInfoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +368,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -322,6 +410,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -341,20 +430,38 @@
 		};
 		1B22A5311A0A5E500040D6BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BCFA70C3B4285D4684672CD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitHub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_DEPENDENCY_INFO_FILE = "$(inherited)";
+				LD_MAP_FILE_PATH = "$(inherited)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LIBTOOLFLAGS = "$(inherited)";
+				PRELINK_LIBS = " $(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		1B22A5321A0A5E500040D6BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBDC7DCB2EA60B705A3E27E7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitHub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_DEPENDENCY_INFO_FILE = "$(inherited)";
+				LD_MAP_FILE_PATH = "$(inherited)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LIBTOOLFLAGS = "$(inherited)";
+				PRELINK_LIBS = " $(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -412,6 +519,7 @@
 				1B22A5321A0A5E500040D6BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B22A5331A0A5E500040D6BB /* Build configuration list for PBXNativeTarget "GitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +528,7 @@
 				1B22A5351A0A5E500040D6BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
